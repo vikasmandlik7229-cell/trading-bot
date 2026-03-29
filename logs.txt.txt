@@ -9,7 +9,7 @@ Quantity   : 0.002
 2026-03-29 10:24:11,467 | INFO | {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'recvWindow': 60000}
 2026-03-29 10:24:11,646 | INFO | Order placed successfully:
 2026-03-29 10:24:11,646 | INFO | {'orderId': 13004439164, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ3dee66e1eb514b21a9284c', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774760051553}
- SUCCESS
+✅ SUCCESS
 
 ========== ORDER RESPONSE ==========
 Order ID     : 13004439164

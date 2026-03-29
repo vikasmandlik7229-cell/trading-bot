@@ -1,0 +1,28 @@
+2026-03-28 22:03:05,156 | INFO | Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-03-28 22:03:05,444 | ERROR | Error: APIError(code=-2014): API-key format invalid.
+2026-03-28 22:19:49,478 | INFO | Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-03-28 22:19:49,929 | ERROR | Error placing order: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-03-28 22:21:02,809 | INFO | Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-03-28 22:21:02,991 | ERROR | Error placing order: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-03-29 10:00:02,989 | INFO | Order request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-03-29 10:00:03,234 | ERROR | Error placing order: APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-03-29 10:08:28,898 | INFO | Placing order with parameters:
+2026-03-29 10:08:28,898 | INFO | {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'recvWindow': 60000}
+2026-03-29 10:08:29,086 | ERROR | Error while placing order:
+2026-03-29 10:08:29,087 | ERROR | APIError(code=-1021): Timestamp for this request is outside of the recvWindow.
+2026-03-29 10:15:10,197 | INFO | Placing order with parameters:
+2026-03-29 10:15:10,197 | INFO | {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'recvWindow': 60000}
+2026-03-29 10:15:10,468 | ERROR | Error while placing order:
+2026-03-29 10:15:10,469 | ERROR | APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-29 10:16:56,162 | INFO | Placing order with parameters:
+2026-03-29 10:16:56,163 | INFO | {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'recvWindow': 60000}
+2026-03-29 10:16:56,327 | INFO | Order placed successfully:
+2026-03-29 10:16:56,328 | INFO | {'orderId': 13004427799, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJfd20a5ff4707530318f89a', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774759616241}
+2026-03-29 10:23:59,842 | INFO | Placing order with parameters:
+2026-03-29 10:23:59,843 | INFO | {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'recvWindow': 60000}
+2026-03-29 10:24:00,082 | INFO | Order placed successfully:
+2026-03-29 10:24:00,082 | INFO | {'orderId': 13004438968, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJe70afddf22b209c2cddafb', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774760039923}
+2026-03-29 10:24:11,466 | INFO | Placing order with parameters:
+2026-03-29 10:24:11,467 | INFO | {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.002, 'recvWindow': 60000}
+2026-03-29 10:24:11,646 | INFO | Order placed successfully:
+2026-03-29 10:24:11,646 | INFO | {'orderId': 13004439164, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ3dee66e1eb514b21a9284c', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774760051553}
